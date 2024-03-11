@@ -1,0 +1,107 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-7..0,300..700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@400..1000,1&display=swap');
+
+* {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+:root {
+  --primary: #206bf8;
+    --primaryLight: rgb(32, 107, 248, .66);
+  --secondary: #9ef7cd;
+  --contentWidth: 55ch;
+  --lightestGray: #eee;
+  --lighterGray: #ccc;
+  --lightGray: #a4a4a4;
+  --medGray: #7f7f7f;
+  --darkGray: #666;
+  --inkColor: #333;
+  --paperColor: #fffdf5;
+  --smallFont: 0.8em;
+  --smallerFont: calc(var(--smallFont)*0.8);
+  --defaultFontWeight: 380;
+
+  --paddingAnchor: 0.4ch;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --primary: #2974ff;
+    --secondary: #007f48;
+    --paperColor: #222;
+    --inkColor: #fffdf5;
+    --lightestGray: #111;
+    --lighterGray: #333;
+    --lightGray: #666;
+    --darkGray: #999;
+    --defaultFontWeight: 410;
+  }
+}
+
+p, a, h2, h3, h4, h5, h6, li {
+  color: var(--inkColor);
+}
+
+a {
+  text-decoration-color: var(--lightGray);
+  transition: all 0.4s ease;
+  padding: 0 var(--paddingAnchor);
+  margin-left: calc(var(--paddingAnchor) * -1);
+  margin-right: calc(var(--paddingAnchor) * -1);
+  border-radius: var(--paddingAnchor);
+  box-decoration-break: clone;
+  @media (prefers-color-scheme: dark) {
+    mix-blend-mode: screen;
+  }
+  @media (prefers-color-scheme: light) {
+    mix-blend-mode: multiply;
+  }
+  &:hover {
+    transition-duration: 0.05s;
+    text-decoration-color: var(--secondary);
+    background-color: var(--secondary);
+  }
+}
+
+p, li {
+  line-height: 1.7;
+  font-weight: var(--defaultFontWeight);
+}
+
+p + p {
+  margin-top: 1.5rem;
+}
+
+
+h1 {
+  color: var(--primary);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+}
+
+em {
+  font-style: oblique;
+}
+
+h1 + p {
+  margin-top: 1.5rem;
+}
+
+p + h2 {
+  margin-top: 3rem;
+}
+
+.picture-of-calua {
+  border-radius: 100%;
+}
+
+#header-links {
+  white-space: nowrap;
+}
