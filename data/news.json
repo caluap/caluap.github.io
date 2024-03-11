@@ -4,7 +4,7 @@
       "year": "2024",
       "month": "1",
       "day": "18",
-      "text": "Two papers we submitted for <a href='https://chi2024.acm.org/'>CHI 2024</a> were (conditionally) accepted."
+      "text": "Two papers we submitted for <a href='https://chi2024.acm.org/'>CHI 2024</a> were <span class='crossed-out'>(conditionally)</span> accepted."
     },
     {
       "year": "2023",
