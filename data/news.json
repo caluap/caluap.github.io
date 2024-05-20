@@ -2,6 +2,12 @@
   "news": [
     {
       "year": "2024",
+      "month": "4",
+      "day": "16",
+      "text": "Had a great time attending <a href='https://chi2024.acm.org/'>CHI 2024</a>!"
+    },
+    {
+      "year": "2024",
       "month": "1",
       "day": "18",
       "text": "Two papers we submitted for <a href='https://chi2024.acm.org/'>CHI 2024</a> were <span class='crossed-out'>(conditionally)</span> accepted."
