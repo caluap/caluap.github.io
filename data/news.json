@@ -2,6 +2,12 @@
   "news": [
     {
       "year": "2024",
+      "month": "6",
+      "day": "24",
+      "text": "Successfully defended my dissertation proposal."
+    },
+    {
+      "year": "2024",
       "month": "4",
       "day": "16",
       "text": "Had a great time attending <a href='https://chi2024.acm.org/'>CHI 2024</a>!"
