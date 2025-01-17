@@ -1,76 +1,82 @@
 {
   "news": [
     {
+      "year": "2025",
+      "month": "1",
+      "day": "16",
+      "text": "🎉 Happy that we had one paper (out of three 😔) conditionally accepted for this year's CHI."
+    },
+    {
       "year": "2024",
       "month": "6",
       "day": "24",
-      "text": "Successfully defended my dissertation proposal."
+      "text": "💪 Successfully defended my dissertation proposal."
     },
     {
       "year": "2024",
       "month": "4",
       "day": "16",
-      "text": "Had a great time attending <a href='https://chi2024.acm.org/'>CHI 2024</a>!"
+      "text": "🇺🇸 Had a great time attending <a href='https://chi2024.acm.org/'>CHI 2024</a>!"
     },
     {
       "year": "2024",
       "month": "1",
       "day": "18",
-      "text": "Two papers we submitted for <a href='https://chi2024.acm.org/'>CHI 2024</a> were <span class='crossed-out'>(conditionally)</span> accepted."
+      "text": "🎉 Two papers we submitted for <a href='https://chi2024.acm.org/'>CHI 2024</a> were <span class='crossed-out'>(conditionally)</span> accepted."
     },
     {
       "year": "2023",
       "month": "11",
       "day": "6",
-      "text": "I had a great time at the <a href='https://www.hb.se/en/about-ub/current/events/haptics-for-inclusion/'>Haptics for Symposium</a>, at the <a href='https://www.hb.se/en/'>University of Borås</a>, in Sweden, where I presented and showcased my ‘Enhancing Affective Captions with Haptic Feedback’ project."
+      "text": "🇸🇪 I had a great time at the <a href='https://www.hb.se/en/about-ub/current/events/haptics-for-inclusion/'>Haptics for Symposium</a>, at the <a href='https://www.hb.se/en/'>University of Borås</a>, in Sweden, where I presented and showcased my ‘Enhancing Affective Captions with Haptic Feedback’ project."
     },
     {
       "year": "2023",
       "month": "10",
       "day": "23",
-      "text": "I attended my first (in-person) ASSETS!"
+      "text": "🇺🇸 I attended my first (in-person) ASSETS!"
     },
     {
       "year": "2023",
       "month": "4",
       "day": "23",
-      "text": "I attended my first CHI!"
+      "text": "🇩🇪 I attended my first CHI!"
     },
     {
       "year": "2023",
       "month": "1",
       "day": "13",
-      "text": "A paper we submitted for <a href='https://chi2023.acm.org/'>CHI 2023</a> was <span class='crossed-out'>(conditionally)</span> accepted."
+      "text": "🎉 A paper we submitted for <a href='https://chi2023.acm.org/'>CHI 2023</a> was <span class='crossed-out'>(conditionally)</span> accepted."
     },
     {
       "year": "2022",
       "month": "10",
       "day": "7",
-      "text": "I presented a poster at the <a href='https://www.rit.edu/aisummit'>AI@RIT</a> summit."
+      "text": "🇺🇸 I presented a poster at the <a href='https://www.rit.edu/aisummit'>AI@RIT</a> summit."
     },
     {
       "year": "2022",
       "month": "8",
       "day": "3",
-      "text": "A paper we submitted for <a href='https://assets22.sigaccess.org/'>ASSETS 2022</a> was accepted."
+      "text": "🎉 A paper we submitted for <a href='https://assets22.sigaccess.org/'>ASSETS 2022</a> was accepted."
     },
     {
       "year": "2022",
       "month": "5",
       "day": "19",
-      "text": "My master's thesis, defended in March 2021 but on hold because of a&nbsp;patent application, is now available."
+      "text": "🏛️ My master's thesis, defended in March 2021 but on hold because of a&nbsp;patent application, is now available."
     },
     {
       "year": "2022",
       "month": "5",
       "day": "11",
-      "text": "Passed my RPA exam."
+      "text": "💪 Passed my RPA exam."
     },
     {
       "year": "2022",
       "month": "5",
       "day": "3",
-      "text": "The paper I wrote with Paula Costa, <em>Hidden bawls, whispers, and yelps: can text convey the sound of speech, beyond words?</em>, has been accepted for an upcoming issue of the <a href='https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369'>IEEE Transactions on Affective&nbsp;Computing</a>."
+      "text": "🎉 The paper I wrote with Paula Costa, <em>Hidden bawls, whispers, and yelps: can text convey the sound of speech, beyond words?</em>, has been accepted for an upcoming issue of the <a href='https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369'>IEEE Transactions on Affective&nbsp;Computing</a>."
     }
   ]
 }
