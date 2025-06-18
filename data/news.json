@@ -2,6 +2,12 @@
   "news": [
     {
       "year": "2025",
+      "month": "6",
+      "day": "18",
+      "text": "🎉 We had two (out of three) accepted for this year's ASSETS conference."
+    },
+    {
+      "year": "2025",
       "month": "1",
       "day": "16",
       "text": "🎉 Happy that we had one paper (out of three 😔) <span class='crossed-out'>(conditionally)</span> accepted for this year's CHI."
