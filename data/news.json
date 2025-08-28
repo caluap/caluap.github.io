@@ -4,7 +4,7 @@
       "year": "2025",
       "month": "6",
       "day": "18",
-      "text": "🎉 We had two (out of three) papers (conditionally) accepted for this year's ASSETS conference."
+      "text": "🎉 We had two (out of three) papers <span class='crossed-out'>(conditionally)</span> accepted for this year's ASSETS conference."
     },
     {
       "year": "2025",
