@@ -2,9 +2,33 @@
   "news": [
     {
       "year": "2025",
+      "month": "10",
+      "day": "25",
+      "text": "🇺🇸 Attended <a href='https://assets25.sigaccess.org/'>ASSETS 2025</a>!"
+    },
+    {
+      "year": "2025",
+      "month": "10",
+      "day": "20",
+      "text": "🎓 Passed my dissertation defense."
+    },
+    {
+      "year": "2025",
+      "month": "9",
+      "day": "17",
+      "text": "👨‍🏫 Presented “Adding Nuance: Emotion-Aware, Flexible Captions for Speech Access” at the Deaf and Hard-of-Hearing Accessible Technology Conference at Gallaudet University."
+    },
+    {
+      "year": "2025",
       "month": "6",
       "day": "18",
       "text": "🎉 We had two (out of three) papers <span class='crossed-out'>(conditionally)</span> accepted for this year's ASSETS conference."
+    },
+    {
+      "year": "2024",
+      "month": "4",
+      "day": "16",
+      "text": "🇯🇵 Attended <a href='https://chi2025.acm.org/'>CHI 2025</a>."
     },
     {
       "year": "2025",
