@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('../fonts/EB-Garamond/EBGaramond08-Italic.woff') format('woff');
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('../fonts/EB-Garamond/EBGaramond08-Regular.woff') format('woff');
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+:root {
+  --color-a: #000;
+  --color-b: #fff;
+  --default-font-size: 1.62rem;
+}
+body {
+  /* font-family: 'Literata', serif; */
+  font-family: 'EB Garamond', serif;
+  font-variant-numeric: oldstyle-nums;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 450;
+  padding: max(min(4vw, 3rem), 2rem);
+  max-width: 55rem;
+  background-color: var(--color-b);
+}
+
+p,
+li,
+*,
+a {
+  color: var(--color-a);
+}
+
+.back-home {
+  font-size: var(--default-font-size);
+  text-decoration: none;
+}
+
+main {
+  font-size: var(--default-font-size);
+  line-height: 1.6;
+}
+a {
+  text-decoration-color: rgb(from var(--color-a) r g b / 25%);
+}
+a:not(li a) {
+  font-style: italic;
+}
+
+.sc {
+  text-transform: lowercase;
+  font-variant-caps: small-caps;
+  /* font-variant: small-caps; */
+  letter-spacing: 0.04em;
+}
+
+.venue-tag,
+.award {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
+}
+.venue-tag::after,
+.award::after {
+  content: '·';
+  display: inline-block;
+  margin-inline: 1ch 0.6ch;
+}
+
+.download-link,
+.youtube-link {
+  display: inline-block;
+  margin-inline: 1ch 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+}
+p + p {
+  margin-top: 1lh;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+nav + p,
+p + nav {
+  margin-top: 1lh;
+}
+
+.publications {
+  font-size: var(--default-font-size);
+  line-height: 1.5;
+  font-weight: 400;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1lh;
+  /* font-family: 'Inter', sans-serif; */
+}
+
+.publications li,
+.publications span.authors,
+.publications em,
+.publications .venue-tag,
+.publications .download-link,
+.publications .youtube-link,
+.publications .award,
+.publications .sc,
+.publications .me-the-author {
+  color: rgb(from var(--color-a) r g b / 60%);
+  /* font-weight: 350; */
+}
+
+.publications a {
+  /* text-decoration-color: currentColor; */
+}
+
+.paper-title {
+  color: rgb(from var(--color-a) r g b / 100%);
+  /* font-weight: 500; */
+}
+
+.publications li:before {
+  content: '»';
+  display: inline-block;
+  width: 1.5ch;
+  margin-left: -1.5ch;
+}
+
+h1 {
+  font-size: var(--default-font-size);
+  font-weight: 700;
+  text-transform: lowercase;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+.pattern-hr {
+  border: none;
+  height: 3px;
+  margin: 3lh 0 1lh;
+  background: repeating-linear-gradient(
+    to right,
+    currentColor 0,
+    currentColor 1ch,
+    transparent 1ch,
+    transparent 1.5ch
+  );
+  opacity: 0.5;
+}
+
+.contact {
+  margin-bottom: 1lh;
+}
+.contact ul li {
+  font-size: var(--default-font-size);
+}
