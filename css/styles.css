@@ -110,7 +110,7 @@ p + nav {
   margin-top: 1lh;
 }
 
-.publications {
+.content-list {
   font-size: var(--default-font-size);
   line-height: 1.5;
   font-weight: 400;
@@ -122,20 +122,20 @@ p + nav {
   /* font-family: 'Inter', sans-serif; */
 }
 
-.publications li,
-.publications span.authors,
-.publications em,
-.publications .venue-tag,
-.publications .download-link,
-.publications .youtube-link,
-.publications .award,
-.publications .sc,
-.publications .me-the-author {
+.content-list.publications li,
+.content-list.publications span.authors,
+.content-list.publications em,
+.content-list.publications .venue-tag,
+.content-list.publications .download-link,
+.content-list.publications .youtube-link,
+.content-list.publications .award,
+.content-list.publications .sc,
+.content-list.publications .me-the-author {
   color: rgb(from var(--color-a) r g b / 60%);
   /* font-weight: 350; */
 }
 
-.publications a {
+.content-list a {
   /* text-decoration-color: currentColor; */
 }
 
@@ -144,12 +144,24 @@ p + nav {
   /* font-weight: 500; */
 }
 
-.publications li:before {
+.content-list.publications li:before {
   content: '»';
   display: inline-block;
   width: 1.5ch;
   margin-left: -1.5ch;
 }
+
+.content-list.news time {
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
+  text-transform: lowercase;
+  font-size: calc(var(--default-font-size) * 0.9);
+}
+
+.content-list.news .news-text {
+display: block;
+}
+
 
 h1 {
   font-size: var(--default-font-size);
@@ -178,4 +190,10 @@ h1 {
 }
 .contact ul li {
   font-size: var(--default-font-size);
+}
+
+nav.contact li.internal:not(:has(~ li.internal))::after {
+  content: '|';
+  display: inline-block;
+  margin-inline: 1ch 0.3ch;
 }
