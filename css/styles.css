@@ -197,3 +197,16 @@ nav.contact li.internal:not(:has(~ li.internal))::after {
   display: inline-block;
   margin-inline: 1ch 0.3ch;
 }
+
+.crossed-out {
+  text-decoration: line-through;
+  font-style: italic;
+  color: rgb(from var(--color-a) r g b / 25%)
+}
+
+.emoji {
+  width: 2ch;
+  max-height: 1.7ch;
+  vertical-align: -0.3ch;
+  display: inline-block;
+}

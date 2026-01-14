@@ -20,6 +20,7 @@
       defer
       data-website-id="608de876-af07-40ec-b007-43254eeeaac6"
     ></script>
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -39,7 +40,7 @@
       <li>
         <time datetime="2025-10-25">25 Oct 2025</time>
         <span class="news-text">
-          🇺🇸 Attended <a href="https://assets25.sigaccess.org/" class="sc">ASSETS 2025</a>!
+          🇺🇸 Attended <a href="https://assets25.sigaccess.org/" class="sc">ASSETS 2025</a>, for which I was Web Chair.
         </span>
       </li>
 
@@ -60,7 +61,7 @@
       <li>
         <time datetime="2025-06-18">18 Jun 2025</time>
         <span class="news-text">
-          🎉 We had two (out of three) papers <span class="crossed-out">(conditionally)</span> accepted for this year's <span class="sc">ASSETS</span> conference.
+          🎉 We had two (out of three 🤷) papers <span class="crossed-out">(conditionally)</span> accepted for this year's <span class="sc">ASSETS</span> conference.
         </span>
       </li>
 
@@ -162,5 +163,13 @@
         </span>
       </li>
     </ul>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            twemoji.parse(document.body, {
+            folder: "svg",
+            ext: ".svg",
+            });
+        });
+    </script>
   </body>
 </html>
