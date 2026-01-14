@@ -171,6 +171,17 @@ h1 {
   letter-spacing: 0.1em;
   margin: 0;
 }
+
+h2 {
+  font-size: var(--default-font-size);
+  font-style: italic;
+}
+
+section + section {
+  margin-top: 2lh;
+
+}
+
 .pattern-hr {
   border: none;
   height: 3px;
