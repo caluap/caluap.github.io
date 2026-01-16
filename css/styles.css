@@ -68,12 +68,14 @@ a:not(li a) {
 }
 
 .venue-tag,
+.forthcoming,
 .award {
   text-transform: lowercase;
   font-variant: small-caps;
   font-variant-caps: small-caps;
 }
 .venue-tag::after,
+.forthcoming::after,
 .award::after {
   content: '·';
   display: inline-block;
@@ -126,6 +128,7 @@ p + nav {
 .content-list.publications span.authors,
 .content-list.publications em,
 .content-list.publications .venue-tag,
+.content-list.publications .forthcoming,
 .content-list.publications .download-link,
 .content-list.publications .youtube-link,
 .content-list.publications .award,
