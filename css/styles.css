@@ -20,11 +20,16 @@
     U+FEFF, U+FFFD;
 }
 
+html {
+  background: #ffeeee;
+}
+
 :root {
-  --color-a: #000;
-  --color-b: #fff;
+  --color-a: #352525;
+  --color-b: #feffff;
   --default-font-size: 1.62rem;
 }
+
 body {
   /* font-family: 'Literata', serif; */
   font-family: 'EB Garamond', serif;
@@ -35,6 +40,9 @@ body {
   padding: max(min(4vw, 3rem), 2rem);
   max-width: 55rem;
   background-color: var(--color-b);
+  margin: 0;
+  box-shadow: rgba(255, 238, 238, 0.15) 0px 6px 24px 0px,
+    rgba(255, 238, 238, 0.2) 0px 0px 0px 1px;
 }
 
 p,
@@ -53,9 +61,11 @@ main {
   font-size: var(--default-font-size);
   line-height: 1.6;
 }
+
 a {
-  text-decoration-color: rgb(from var(--color-a) r g b / 25%);
+  text-decoration-color: rgb(from var(--color-a) r g b / 33%);
 }
+
 a:not(li a) {
   font-style: italic;
 }
@@ -74,6 +84,7 @@ a:not(li a) {
   font-variant: small-caps;
   font-variant-caps: small-caps;
 }
+
 .venue-tag::after,
 .forthcoming::after,
 .award::after {
@@ -95,7 +106,8 @@ strong {
 p {
   margin: 0;
 }
-p + p {
+
+p+p {
   margin-top: 1lh;
 }
 
@@ -107,8 +119,9 @@ nav ul {
   flex-wrap: wrap;
   gap: 1rem;
 }
-nav + p,
-p + nav {
+
+nav+p,
+p+nav {
   margin-top: 1lh;
 }
 
@@ -134,7 +147,7 @@ p + nav {
 .content-list.publications .award,
 .content-list.publications .sc,
 .content-list.publications .me-the-author {
-  color: rgb(from var(--color-a) r g b / 60%);
+  color: rgb(from var(--color-a) r g b / 66%);
   /* font-weight: 350; */
 }
 
@@ -162,7 +175,7 @@ p + nav {
 }
 
 .content-list.news .news-text {
-display: block;
+  display: block;
 }
 
 
@@ -180,7 +193,7 @@ h2 {
   font-style: italic;
 }
 
-section + section {
+section+section {
   margin-top: 2lh;
 
 }
@@ -189,19 +202,18 @@ section + section {
   border: none;
   height: 3px;
   margin: 3lh 0 1lh;
-  background: repeating-linear-gradient(
-    to right,
-    currentColor 0,
-    currentColor 1ch,
-    transparent 1ch,
-    transparent 1.5ch
-  );
+  background: repeating-linear-gradient(to right,
+      currentColor 0,
+      currentColor 1ch,
+      transparent 1ch,
+      transparent 1.5ch);
   opacity: 0.5;
 }
 
 .contact {
   margin-bottom: 1lh;
 }
+
 .contact ul li {
   font-size: var(--default-font-size);
 }
