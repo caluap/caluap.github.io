@@ -1,11 +1,11 @@
-section,role,venue,track,show_year,venue_full,organization,start_year,end_year
-Conference Organization,Program Committee Member,ASSETS 2026,Technical Papers,FALSE,ACM SIGACCESS Conference on Computers and Accessibility,ACM SIGACCESS,2026,2026
-Conference Organization,Associate Chair,CHI 2026,Posters,FALSE,ACM Conference on Human Factors in Computing Systems,ACM,2026,2026
-Conference Organization,Web and Graphic Design Chair,ASSETS 2025,,FALSE,ACM SIGACCESS Conference on Computers and Accessibility,ACM SIGACCESS,2025,2025
-Conference Organization,Associate Chair,CHI 2025,Late-Breaking Work,FALSE,ACM Conference on Human Factors in Computing Systems,ACM,2025,2025
-Peer Review,,CHI 2023; CHI 2024; CHI 2025; CHI 2026,Technical Papers,FALSE,ACM Conference on Human Factors in Computing Systems,ACM,2023,2026
-Peer Review,,IEEE Computer,,TRUE,IEEE Computer Magazine,IEEE,2026,2026
-Peer Review,,Interacting with Computers,,TRUE,Interacting with Computers,Oxford University Press,2026,2026
-Peer Review,,IEEE VR 2026,,FALSE,IEEE Conference on Virtual Reality and 3D User Interfaces,IEEE,2026,2026
-Peer Review,,CONGIC 2021,,FALSE,Congresso Nacional de Iniciação Científica em Design,Sociedade Brasileira de Design da Informação,2021,2021
-Community & Professional Service,Communications Chair,CAIR Lab,,TRUE,Center for Accessibility and Inclusion Research (RIT),Rochester Institute of Technology,2022,2024
+section,role,venue,track,show_year,venue_full,organization,show_org,start_year,end_year
+Conference Organization,Program Committee Member,ASSETS 2026,Technical Papers,FALSE,ACM SIGACCESS Conference on Computers and Accessibility,ACM SIGACCESS,FALSE,2026,2026
+Conference Organization,Associate Chair,CHI 2026,Posters,FALSE,ACM Conference on Human Factors in Computing Systems,ACM,FALSE,2026,2026
+Conference Organization,Web and Graphic Design Chair,ASSETS 2025,,FALSE,ACM SIGACCESS Conference on Computers and Accessibility,ACM SIGACCESS,FALSE,2025,2025
+Conference Organization,Associate Chair,CHI 2025,Late-Breaking Work,FALSE,ACM Conference on Human Factors in Computing Systems,ACM,FALSE,2025,2025
+Peer Review,,CHI 2023; CHI 2024; CHI 2025; CHI 2026,Technical Papers,FALSE,ACM Conference on Human Factors in Computing Systems,ACM,FALSE,2023,2026
+Peer Review,,IEEE Computer,,TRUE,IEEE Computer Magazine,IEEE,FALSE,2026,2026
+Peer Review,,Interacting with Computers,,TRUE,Interacting with Computers,Oxford University Press,TRUE,2026,2026
+Peer Review,,IEEE VR 2026,,FALSE,IEEE Conference on Virtual Reality and 3D User Interfaces,IEEE,FALSE,2026,2026
+Peer Review,,CONGIC 2021,,FALSE,Congresso Nacional de Iniciação Científica em Design,Sociedade Brasileira de Design da Informação,TRUE,2021,2021
+Community & Professional Service,Communications Chair,CAIR Lab,,TRUE,Center for Accessibility and Inclusion Research,Rochester Institute of Technology,TRUE,2022,2024
