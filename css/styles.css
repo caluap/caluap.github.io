@@ -237,9 +237,7 @@ nav ul.nav-external li {
   letter-spacing: 0.04em;
 }
 
-nav ul.nav-external li a {
-  text-decoration: none;
-}
+nav ul.nav-external li a {}
 
 .crossed-out {
   text-decoration: line-through;
