@@ -68,6 +68,15 @@ def _em(text: str) -> str:
     return f"<em>{_esc_sc_acronyms(text)}</em>"
 
 
+def _compact_venue_label(venue: str) -> str:
+    chi_years = re.findall(r"\bCHI\s+(20\d{2})\b", venue, flags=re.IGNORECASE)
+
+    if len(chi_years) > 1:
+        years = [int(y) for y in chi_years]
+        return f"CHI {min(years)}–{max(years)}"
+
+    return venue
+
 def _format_li(row: ServiceRow) -> str:
     section = row.section.strip()
     role = row.role.strip()
@@ -83,14 +92,7 @@ def _format_li(row: ServiceRow) -> str:
     # For conference-like items (show_year=False), show a "(<SC VENUE ...>)" block.
     venue_year_block = ""
     if not row.show_year:
-        base = re.split(r"[;,(]", venue)[0].strip()
-
-        # If venue already contains a year, preserve it exactly.
-        if re.search(r"\b\d{4}\b", base):
-            label = base
-        else:
-            label = f"{base} {years}"
-
+        label = _compact_venue_label(venue)
         venue_year_block = f" ({_sc(label.replace(' ', '\u00a0'))})"
 
     # Decide whether to show org at all (new column)
