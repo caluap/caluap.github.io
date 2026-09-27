@@ -84,15 +84,14 @@ def _format_li(row: ServiceRow) -> str:
     venue_year_block = ""
     if not row.show_year:
         base = re.split(r"[;,(]", venue)[0].strip()
-        if base.upper().startswith("CHI"):
-            label = f"CHI\u00a0{years}"
-        else:
-            if any(ch.isdigit() for ch in venue) and row.start_year == row.end_year:
-                label = venue.replace(" ", "\u00a0")
-            else:
-                label = f"{venue}\u00a0{years}".replace(" ", "\u00a0")
 
-        venue_year_block = f" ({_sc(label)})"
+        # If venue already contains a year, preserve it exactly.
+        if re.search(r"\b\d{4}\b", base):
+            label = base
+        else:
+            label = f"{base} {years}"
+
+        venue_year_block = f" ({_sc(label.replace(' ', '\u00a0'))})"
 
     # Decide whether to show org at all (new column)
     org_out = org if row.show_org else ""
